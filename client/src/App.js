@@ -7,7 +7,7 @@ function App() {
   useEffect(() => {
     async function fetchGainers() {
       try {
-        const response = await axios.get('http://localhost:3001/top_gainers');
+        const response = await axios.get('http://localhost:3001/top_gainers'); //you can use this api link for fetching data 'https://www.alphavantage.co/query?function=TOP_GAINERS_LOSERS&apikey=42Q8XQP9V1HCYXK9'
         setGainers(response.data);
       } catch (error) {
         console.error('Error fetching gainers:', error);
