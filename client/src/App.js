@@ -9,7 +9,7 @@ function App() {
       try {
         const response = await axios.get('https://www.alphavantage.co/query?function=TOP_GAINERS_LOSERS&apikey=42Q8XQP9V1HCYXK9');
         console.log(response);
-        const top5Gainers = response.data.gainers.slice(0, 5);
+        const top5Gainers = response.data.top_gainers.slice(0, 5);
         console.log(top5Gainers);
         setGainers(top5Gainers); 
       } catch (error) {
