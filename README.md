@@ -5,8 +5,6 @@ K-C Investment is a web application that displays information about the top gain
 
 ## Installation
 
-1. Clone the repository:
-
    ```bash
    git clone https://github.com/Sonali020200/K-C-Investment.git
 
@@ -17,8 +15,8 @@ K-C Investment is a web application that displays information about the top gain
    npm install
 
    npm start
-
-  ```
+```
+  
 
  ## Usage
 
