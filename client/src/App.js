@@ -7,17 +7,17 @@ function App() {
   useEffect(() => {
     async function fetchGainers() {
       try {
-        const response = await axios.get('http://localhost:3001/top_gainers'); //you can use this api link for fetching data 'https://www.alphavantage.co/query?function=TOP_GAINERS_LOSERS&apikey=42Q8XQP9V1HCYXK9'
-        setGainers(response.data);
+        const response = await axios.get('https://www.alphavantage.co/query?function=TOP_GAINERS_LOSERS&apikey=42Q8XQP9V1HCYXK9');
+        console.log(response);
+        const top5Gainers = response.data.gainers.slice(0, 5);
+        console.log(top5Gainers);
+        setGainers(top5Gainers); 
       } catch (error) {
         console.error('Error fetching gainers:', error);
       }
     }
     fetchGainers();
   }, []);
-
-  // Slice the top 5 gainers
-  const top5Gainers = gainers.slice(0, 5);
 
   return (
     <div className="App flex justify-center items-center min-h-screen bg-gray-100">
@@ -35,7 +35,7 @@ function App() {
               </tr>
             </thead>
             <tbody>
-              {top5Gainers.map((gainer, index) => (
+              {gainers.map((gainer, index) => (
                 <tr key={index}>
                   <td className="border border-gray-300 px-4 py-2">{gainer.ticker}</td>
                   <td className="border border-gray-300 px-4 py-2">{gainer.price}</td>
