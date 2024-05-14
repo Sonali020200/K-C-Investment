@@ -1,0 +1,146 @@
+{
+    "metadata": "Top gainers, losers, and most actively traded US tickers",
+    "last_updated": "2024-05-10 16:16:00 US/Eastern",
+"top_gainers": [
+    {
+        "ticker": "ZH",
+        "price": "3.87",
+        "change_amount": "3.1987",
+        "change_percentage": "476.4934%",
+        "volume": "316394"
+    },
+    {
+        "ticker": "LIDRW",
+        "price": "0.0213",
+        "change_amount": "0.0121",
+        "change_percentage": "131.5217%",
+        "volume": "1801610"
+    },
+    {
+        "ticker": "LIDR",
+        "price": "2.58",
+        "change_amount": "1.4",
+        "change_percentage": "118.6441%",
+        "volume": "156284942"
+    },
+    {
+        "ticker": "NVAX",
+        "price": "8.88",
+        "change_amount": "4.41",
+        "change_percentage": "98.6577%",
+        "volume": "168721816"
+    },
+    {
+        "ticker": "SONDW",
+        "price": "0.0058",
+        "change_amount": "0.0025",
+        "change_percentage": "75.7576%",
+        "volume": "93255"
+    },
+    {
+        "ticker": "NNAGW",
+        "price": "0.07",
+        "change_amount": "0.0292",
+        "change_percentage": "71.5686%",
+        "volume": "2120"
+    },
+    {
+        "ticker": "TNONW",
+        "price": "0.0582",
+        "change_amount": "0.0241",
+        "change_percentage": "70.6745%",
+        "volume": "14677"
+    },
+    {
+        "ticker": "CLNNW",
+        "price": "0.0669",
+        "change_amount": "0.0276",
+        "change_percentage": "70.229%",
+        "volume": "4093"
+    },
+    {
+        "ticker": "PDYNW",
+        "price": "0.059",
+        "change_amount": "0.024",
+        "change_percentage": "68.5714%",
+        "volume": "8790"
+    },
+    {
+        "ticker": "LGHLW",
+        "price": "0.0059",
+        "change_amount": "0.0023",
+        "change_percentage": "63.8889%",
+        "volume": "372411"
+    },
+    {
+        "ticker": "WINVW",
+        "price": "0.0287",
+        "change_amount": "0.011",
+        "change_percentage": "62.1469%",
+        "volume": "330956"
+    },
+    {
+        "ticker": "CTV+",
+        "price": "0.08",
+        "change_amount": "0.03",
+        "change_percentage": "60.0%",
+        "volume": "207"
+    },
+    {
+        "ticker": "PW",
+        "price": "0.6894",
+        "change_amount": "0.2544",
+        "change_percentage": "58.4828%",
+        "volume": "5731111"
+    },
+    {
+        "ticker": "CELUW",
+        "price": "0.0196",
+        "change_amount": "0.0072",
+        "change_percentage": "58.0645%",
+        "volume": "8724"
+    },
+    {
+        "ticker": "NTRBW",
+        "price": "0.78",
+        "change_amount": "0.27",
+        "change_percentage": "52.9412%",
+        "volume": "293"
+    },
+    {
+        "ticker": "PUCKW",
+        "price": "0.0076",
+        "change_amount": "0.0025",
+        "change_percentage": "49.0196%",
+        "volume": "36206"
+    },
+    {
+        "ticker": "VHAI+A",
+        "price": "1.25",
+        "change_amount": "0.4099",
+        "change_percentage": "48.7918%",
+        "volume": "13332"
+    },
+    {
+        "ticker": "HUBCZ",
+        "price": "0.09",
+        "change_amount": "0.0289",
+        "change_percentage": "47.2995%",
+        "volume": "4979"
+    },
+    {
+        "ticker": "MTEKW",
+        "price": "0.11",
+        "change_amount": "0.035",
+        "change_percentage": "46.6667%",
+        "volume": "100"
+    },
+    {
+        "ticker": "XFINW",
+        "price": "0.07",
+        "change_amount": "0.0213",
+        "change_percentage": "43.7372%",
+        "volume": "3"
+    }
+]
+}
