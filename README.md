@@ -20,7 +20,9 @@ K-C Investment is a web application that displays information about the top gain
 
 ## Usage
 
-The application automatically fetches data about the top gainers from the Alpha Vantage API. Users can view the top 5 gainers and their relevant information, such as ticker symbol, price, change amount, change percentage, and volume.
+The application automatically fetches data about the top gainers from the Alpha Vantage API. 
+Users can view the top 5 gainers and their relevant information, such as ticker symbol, 
+price, change amount, change percentage, and volume.
 
 ## Preview
 
